@@ -1,4 +1,3 @@
-import './App.css';
 import Header from "./components/Header/header.jsx"
 import Sobre from "./components/Sobre/sobre.jsx"
 import Habilidades from "./components/Habilidades/habilidades.jsx"
