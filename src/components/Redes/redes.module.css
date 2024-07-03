@@ -1,0 +1,340 @@
+.gridItem {
+    background-color: #ebebeb;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #ebebeb;
+}
+
+.redes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb;
+    height: 700px;
+}
+
+.img {
+    width: 200px;
+}
+
+.desc1 {
+    color: #eb4132;
+    width: 500px;
+}
+
+.desc2 {
+    color: #24292f;
+    margin-left: 20px;
+
+}
+
+.desc3 {
+    color: #2867b2;
+    margin-right: 20px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h31 {
+    color: #eb4132;
+    margin-bottom: 50px;
+}
+
+.h32 {
+    color: #24292f;
+    margin-bottom: 20px;
+}
+
+.h33 {
+    color: #2867b2;
+    margin-bottom: 50px;
+    margin-right: 35px;
+}
+
+.h2 {
+    font-size: 70px;
+}
+
+
+
+@media screen and (max-width:1440px) and (min-width:1300px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+
+    a p {
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width:1170px) and (min-width:1001px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 200px;
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a p {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 150px;
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a p {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:599px) and (min-width:400px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-auto-columns: auto;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 70%;
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a p {
+        display: none;
+    }
+
+    .img {
+        width: 150px;
+    }
+
+    .h31 {
+        font-size: 40px;
+    }
+
+    .h32 {
+        font-size: 40px;
+    }
+
+    .h33 {
+        font-size: 40px;
+    }
+
+    .redes{
+        height: 1100px;
+    }
+}
+
+
+
+@media screen and (max-width:400px) and (min-width:321px){
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-auto-columns: auto;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 70%;
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    a p {
+        display: none;
+    }
+
+    .img {
+        width: 150px;
+    }
+
+    .h31 {
+        font-size: 40px;
+    }
+
+    .h32 {
+        font-size: 40px;
+    }
+
+    .h33 {
+        font-size: 40px;
+    }
+
+    .redes{
+        height: 1100px;
+    }
+}
+
+
+@media screen and (max-width:321px) and (min-width:320px) {  .gridContainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-columns: auto;
+    background-color: #ebebeb;
+    padding: 0px;
+    width: 100%;
+}
+
+.gridItem {
+    background-color: #ebebeb;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 150px;
+    width: 55%;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a p {
+    display: none;
+}
+
+.img {
+    width: 150px;
+}
+
+.h31 {
+    font-size: 40px;
+}
+
+.h32 {
+    font-size: 40px;
+}
+
+.h33 {
+    font-size: 40px;
+}
+
+.redes{
+    height: 1100px;
+}
+
+.h2{
+    font-size: 50px;
+}
+}
+
+@media screen and (max-width:890px) and (min-width:880px) {
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .desc1,.desc2,.desc3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1300px) and (min-width:1280px){
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .desc1,.desc2,.desc3{
+        font-size: 25px;
+    }
+}

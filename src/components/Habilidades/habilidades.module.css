@@ -1,0 +1,450 @@
+.gridItem {
+    background-color: #ebebeb;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #ebebeb;
+    padding: 10px;
+}
+
+.habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ebebeb;
+}
+
+.h2{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 70px;
+}
+
+p{
+    color: #505050;
+    font-weight: bold;
+}
+
+.node{
+    width: 160px;
+}
+
+.react{
+    width: 200px;
+}
+
+.js{
+    width: 180px;
+}
+
+.ts{
+    width: 180px;
+}
+
+.html{
+    width: 180px;
+}
+
+.css{
+    width: 180px;
+}
+
+.sass{
+    width: 200px;
+}
+
+/* RESPONSIVE */
+
+
+
+@media screen and (max-width:1440px) and (min-width:1300px) {
+    .gridContainer {
+        display: grid;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+
+    
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 0px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 150px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-area: myArea;
+    }
+    
+}
+@media screen and (max-width:1300px) and (min-width:1280px){
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 100px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .node{
+        width: 105px;
+    }
+    
+    .react{
+        width: 140px;
+    }
+    
+    .js{
+        width: 125px;
+    }
+    
+    .ts{
+        width: 125px;
+    }
+    
+    .html{
+        width: 140px;
+    }
+    
+    .css{
+        width: 140px;
+    }
+    
+    .sass{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:1170px) and (min-width:1001px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+    }
+   
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 0px;
+        font-size: 30px;
+        text-align: center;
+        height: 150px;
+        width: 130px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .node{
+        width: 105px;
+    }
+    
+    .react{
+        width: 140px;
+    }
+    
+    .js{
+        width: 125px;
+    }
+    
+    .ts{
+        width: 125px;
+    }
+    
+    .html{
+        width: 140px;
+    }
+    
+    .css{
+        width: 140px;
+    }
+    
+    .sass{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:600px) {
+        .gridContainer {
+            display: grid;
+            background-color: #ebebeb;
+            padding: 0px;
+            width: 100%;
+            height: 1500px;
+            grid-template-columns: auto;
+            grid-auto-columns: auto;
+        }
+       
+        .gridItem {
+            background-color: #ebebeb;
+            padding: 0px;
+            text-align: center;
+            height: 150px;
+            width: 95%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .node{
+            width: 120px;
+        }
+        
+        .react{
+            width: 150px;
+        }
+        
+        .js{
+            width: 150px;
+        }
+        
+        .ts{
+            width: 150px;
+        }
+        
+        .html{
+            width: 180px;
+        }
+        
+        .css{
+            width: 180px;
+        }
+        
+        .sass{
+            width: 160px;
+        }
+        .h2{
+        margin-bottom: 30px;
+        }
+    }
+
+@media screen and (max-width:599px) and (min-width:400px) {
+    .gridContainer {
+        display: grid;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+        height: 1500px;
+        grid-template-columns: auto;
+        grid-auto-columns: auto;
+    }
+   
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 0px;
+        text-align: center;
+        height: 150px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .node{
+        width: 120px;
+    }
+    
+    .react{
+        width: 150px;
+    }
+    
+    .js{
+        width: 150px;
+    }
+    
+    .ts{
+        width: 150px;
+    }
+    
+    .html{
+        width: 180px;
+    }
+    
+    .css{
+        width: 180px;
+    }
+    
+    .sass{
+        width: 160px;
+    }
+    .h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:321px) {
+    .gridContainer {
+        display: grid;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+        height: 1500px;
+        grid-template-columns: auto;
+        grid-auto-columns: auto;
+    }
+   
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 0px;
+        text-align: center;
+        height: 150px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .node{
+        width: 120px;
+    }
+    
+    .react{
+        width: 150px;
+    }
+    
+    .js{
+        width: 150px;
+    }
+    
+    .ts{
+        width: 150px;
+    }
+    
+    .html{
+        width: 180px;
+    }
+    
+    .css{
+        width: 180px;
+    }
+    
+    .sass{
+        width: 160px;
+    }
+    .h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width:321px) and (min-width:320px) {
+    .gridContainer {
+        display: grid;
+        background-color: #ebebeb;
+        padding: 0px;
+        width: 100%;
+        height: 1500px;
+        grid-template-columns: auto;
+        grid-auto-columns: auto;
+    }
+   
+    .gridItem {
+        background-color: #ebebeb;
+        padding: 0px;
+        text-align: center;
+        height: 150px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .node{
+        width: 120px;
+    }
+    
+    .react{
+        width: 150px;
+    }
+    
+    .js{
+        width: 150px;
+    }
+    
+    .ts{
+        width: 150px;
+    }
+    
+    .html{
+        width: 180px;
+    }
+    
+    .css{
+        width: 180px;
+    }
+    
+    .sass{
+        width: 160px;
+    }
+    .h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    }
+}
+
+@media screen and (max-width:890px) and (min-width:880px){
+
+.gridItem {
+    background-color: #ebebeb;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.node{
+    width: 100px;
+}
+
+.react{
+    width: 140px;
+}
+
+.js{
+    width: 100px;
+}
+
+.ts{
+    width: 100px;
+}
+
+.html{
+    width: 110px;
+}
+
+.css{
+    width: 110px;
+}
+
+.sass{
+    width: 110px;
+}
+}
