@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portifolio/static/css/main.67ecd6ed.css",
+    "main.js": "/Portifolio/static/js/main.9113ca9a.js",
+    "static/js/453.9c226ca7.chunk.js": "/Portifolio/static/js/453.9c226ca7.chunk.js",
+    "static/media/code-1076536_1920.png": "/Portifolio/static/media/code-1076536_1920.9e9ddd1539a0033372e9.png",
+    "static/media/foto.jpeg": "/Portifolio/static/media/foto.5fa669566c85ed326064.jpeg",
+    "static/media/React.png": "/Portifolio/static/media/React.b76698cf6e821b8a8758.png",
+    "static/media/Unofficial_JavaScript_logo_2.svg.png": "/Portifolio/static/media/Unofficial_JavaScript_logo_2.svg.33ea0ba11f5c4398badf.png",
+    "static/media/HTML5_logo_and_wordmark.svg.png": "/Portifolio/static/media/HTML5_logo_and_wordmark.svg.35edb1d738d9978f8055.png",
+    "static/media/sass.png": "/Portifolio/static/media/sass.95acddf06be5308d9a94.png",
+    "static/media/fatec_ra_central_taquaritinga_cor.png": "/Portifolio/static/media/fatec_ra_central_taquaritinga_cor.0a209d6036c701edd5c8.png",
+    "static/media/css-3.png": "/Portifolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/Gmail_icon_(2020).svg.png": "/Portifolio/static/media/Gmail_icon_(2020).svg.703c2ab206687a4e3510.png",
+    "static/media/ts-logo-512.svg": "/Portifolio/static/media/ts-logo-512.9ad81d2e09b9cd2265cdb1e55d83a709.svg",
+    "static/media/github-mark.svg": "/Portifolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/Portifolio/index.html",
+    "main.67ecd6ed.css.map": "/Portifolio/static/css/main.67ecd6ed.css.map",
+    "main.9113ca9a.js.map": "/Portifolio/static/js/main.9113ca9a.js.map",
+    "453.9c226ca7.chunk.js.map": "/Portifolio/static/js/453.9c226ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67ecd6ed.css",
+    "static/js/main.9113ca9a.js"
+  ]
+}
