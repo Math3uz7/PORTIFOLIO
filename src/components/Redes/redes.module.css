@@ -134,12 +134,13 @@ a {
         font-size: 30px;
         text-align: center;
         height: 150px;
-        width: 150px;
+        width: 100px;
         margin: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-left: 65px;
     }
 
     a p {
